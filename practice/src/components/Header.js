@@ -4,7 +4,7 @@ function Header(props) {
     return (
         <div>
           <h1>
-            Hello there {props.name}
+            Hello there {props.name}{props.mark}
           </h1>
           </div>
     );
